@@ -1,0 +1,61 @@
+{
+  "model_name": "logistica_balanceada",
+  "features": [
+    "AttendanceRate",
+    "StudyHours"
+  ],
+  "labels": [
+    "en_riesgo",
+    "medio_riesgo",
+    "sin_riesgo"
+  ],
+  "cuts": [
+    60,
+    70
+  ],
+  "training_rows": 100000,
+  "validation_rows": 30000,
+  "fit_scope": "Solo muestra original de train; sin reajustar con validation",
+  "decision": "Seleccion operativa tras revisar validacion: reducir riesgo alto enviado a verde; acepta mayor carga de revision",
+  "predict_rule": "argmax de predict_proba sin ajustar umbrales",
+  "scope": "Prototipo sintetico, no alerta temporal validada ni diagnostico integral",
+  "scores": "No calibrados; no interpretar como probabilidad fiable de necesidad de apoyo",
+  "created_utc": "2026-11-19T05:12:32.530933+00:00",
+  "sklearn_version": "1.9.1",
+  "sample_sha256": {
+    "train": "89cdfa24f73eaf9d26b370df9b7c8e14c1d5c8272648b098278d723b901b4eff",
+    "validation": "16f2b00b9ceed83d0857f5a5d933a02ccbf43ee9ae6509ca1ad3edbe45a1b4d6"
+  },
+  "test_source": "C:\\Users\\gpatr\\Desktop\\ModeloRiesgo\\data\\test.csv",
+  "test_bytes": 166057940,
+  "test_mtime_ns": 1795053552919366600,
+  "test_plan": "Archivo completo por bloques de 100000. Sin seleccion de modelos ni ajuste posterior basado en test.",
+  "sampling_train": {
+    "source": "C:\\Users\\gpatr\\Desktop\\ModeloRiesgo\\data\\train.csv",
+    "source_bytes": 1328598306,
+    "source_mtime_ns": 1795053616710780200,
+    "source_rows": 8000774,
+    "sample_rows": 100000,
+    "seed": 42,
+    "columns": [
+      "AttendanceRate",
+      "StudyHours",
+      "TestScore_Math"
+    ],
+    "method": "uniform random priorities across all chunks"
+  },
+  "sampling_validation": {
+    "source": "C:\\Users\\gpatr\\Desktop\\ModeloRiesgo\\data\\validation.csv",
+    "source_bytes": 165931109,
+    "source_mtime_ns": 1795053568609557700,
+    "source_rows": 999229,
+    "sample_rows": 30000,
+    "seed": 43,
+    "columns": [
+      "AttendanceRate",
+      "StudyHours",
+      "TestScore_Math"
+    ],
+    "method": "uniform random priorities across all chunks"
+  }
+}

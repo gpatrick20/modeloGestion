@@ -1,0 +1,37 @@
+{
+  "features": [
+    "AttendanceRate",
+    "StudyHours"
+  ],
+  "labels": [
+    "en_riesgo",
+    "medio_riesgo",
+    "sin_riesgo"
+  ],
+  "target_origin": "TestScore_Math",
+  "cuts": [
+    60,
+    70
+  ],
+  "cut_interpretation": "Prototipo: <60, 60 a <70, >=70; no politica oficial del dataset",
+  "selection": "validation_macro_f1_then_recall_en_riesgo",
+  "created_utc": "2026-11-19T05:04:50.788904+00:00",
+  "sklearn_version": "1.9.1",
+  "data_sha256": {
+    "train": "89cdfa24f73eaf9d26b370df9b7c8e14c1d5c8272648b098278d723b901b4eff",
+    "validation": "16f2b00b9ceed83d0857f5a5d933a02ccbf43ee9ae6509ca1ad3edbe45a1b4d6"
+  },
+  "scope": "Clasificacion experimental con datos sinteticos. Sin validacion temporal; no diagnostico integral. Probabilidades no calibradas.",
+  "model_name": "logistica",
+  "metrics": {
+    "modelo": "logistica",
+    "accuracy": 0.789,
+    "f1_macro": 0.6416307211588558,
+    "balanced_accuracy": 0.6081388155003076,
+    "recall_en_riesgo": 0.37784522003034904,
+    "precision_en_riesgo": 0.6784741144414169,
+    "segundos_fit": 0.18682499998249114,
+    "n_train": 100000,
+    "n_validation": 30000
+  }
+}

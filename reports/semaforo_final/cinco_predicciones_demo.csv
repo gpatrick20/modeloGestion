@@ -1,0 +1,6 @@
+registro_id,AttendanceRate,StudyHours,categoria_estimada,score_en_riesgo,score_medio_riesgo,score_sin_riesgo,tipo_registro
+DEMO-001,0.76,0.4,en_riesgo,0.9728991426048953,0.027058884168904524,4.197322620016442e-05,perfil_ficticio_manual_no_evaluacion
+DEMO-002,0.83,0.7,en_riesgo,0.6308566552858872,0.3511993886490929,0.01794395606501987,perfil_ficticio_manual_no_evaluacion
+DEMO-003,0.88,1.0,medio_riesgo,0.10625384921968556,0.5365170219006944,0.35722912887962,perfil_ficticio_manual_no_evaluacion
+DEMO-004,0.93,1.4,sin_riesgo,0.0019379687718307725,0.09570521699746684,0.9023568142307025,perfil_ficticio_manual_no_evaluacion
+DEMO-005,0.97,1.8,sin_riesgo,3.619233851157329e-05,0.011767192910962525,0.9881966147505259,perfil_ficticio_manual_no_evaluacion

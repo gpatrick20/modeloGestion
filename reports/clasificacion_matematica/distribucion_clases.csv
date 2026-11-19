@@ -1,0 +1,7 @@
+particion,clase,n,porcentaje
+train,en_riesgo,6508,6.508
+train,medio_riesgo,24151,24.151
+train,sin_riesgo,69341,69.341
+validation,en_riesgo,1977,6.59
+validation,medio_riesgo,7273,24.243333333333332
+validation,sin_riesgo,20750,69.16666666666667

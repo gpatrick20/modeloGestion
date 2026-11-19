@@ -1,0 +1,6 @@
+{
+  "finished_utc": "2026-11-19T05:12:35.342157+00:00",
+  "test_rows": 999997,
+  "model_sha256": "1310d46a999b857879d6e009f9fd507e92b2594a41287f44841dbefacce78d0d",
+  "note": "Test evaluado sin reajuste. No usarlo para seguir seleccionando modelos. Demo no prueba desempeno ni garantiza combinaciones ausentes del entrenamiento."
+}

@@ -1,0 +1,14 @@
+{
+  "alcance": "Diagnostico descriptivo de matematica, no pronostico ni causalidad",
+  "fuente": "Cache completa de train.csv del EDA original",
+  "umbral_bajo": "No definido; no se crean etiquetas de riesgo",
+  "StudyHours": "Horas diarias segun diccionario",
+  "distribucion": "Intervalos [0,10), ..., [90,100]",
+  "faltantes": "Objetivo invalido excluido y contado; factores categoricos faltantes conservados; invalidos numericos agrupados; asistencia y estudio invalidos excluidos y contados",
+  "precauciones": [
+    "Comparaciones sin ajuste por otros factores",
+    "Diferencias grupales no son efectos de intervenciones",
+    "No usar atributos sensibles para asignar apoyo automaticamente",
+    "No se lee validacion ni test y no se modifica la base cache"
+  ]
+}

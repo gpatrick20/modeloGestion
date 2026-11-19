@@ -1,0 +1,14 @@
+{
+  "source": "C:\\Users\\gpatr\\Desktop\\ModeloRiesgo\\data\\train.csv",
+  "source_bytes": 1328598306,
+  "source_mtime_ns": 1795053616710780200,
+  "source_rows": 8000774,
+  "sample_rows": 100000,
+  "seed": 42,
+  "columns": [
+    "AttendanceRate",
+    "StudyHours",
+    "TestScore_Math"
+  ],
+  "method": "uniform random priorities across all chunks"
+}

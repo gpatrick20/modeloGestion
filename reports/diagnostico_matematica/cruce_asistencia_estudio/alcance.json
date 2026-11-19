@@ -1,0 +1,7 @@
+{
+  "alcance": "Cruce descriptivo, no causal ni pronostico",
+  "intervalos": "Cerrados a izquierda, abiertos a derecha; ultimo incluye 100% y 4 horas",
+  "grupos_pequenos": "n<30 marcado y oculto en grafico, no borrado del CSV; criterio visual exploratorio",
+  "faltantes": "Se excluyen y cuentan valores no validos; los conteos de invalidez pueden solaparse",
+  "interpretacion": "Comparar estudio dentro de filas de asistencia y asistencia dentro de columnas de estudio. Intervalos no equivalen a controlar exactamente ni ajustar otros factores."
+}

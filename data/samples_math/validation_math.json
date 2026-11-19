@@ -1,0 +1,14 @@
+{
+  "source": "C:\\Users\\gpatr\\Desktop\\ModeloRiesgo\\data\\validation.csv",
+  "source_bytes": 165931109,
+  "source_mtime_ns": 1795053568609557700,
+  "source_rows": 999229,
+  "sample_rows": 30000,
+  "seed": 43,
+  "columns": [
+    "AttendanceRate",
+    "StudyHours",
+    "TestScore_Math"
+  ],
+  "method": "uniform random priorities across all chunks"
+}

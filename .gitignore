@@ -1,0 +1,41 @@
+# Entorno virtual
+.venv/
+venv/
+
+# Cache de Python y notebooks
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Credenciales y configuraciones privadas
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+*.pem
+*.key
+
+# Datos originales grandes: se conservan localmente
+/data/train.csv
+/data/validation.csv
+/data/test.csv
+
+# Cache del EDA
+/data/eda_cache/
+
+# CSV de muestras: se regeneran con los scripts
+/data/samples_math/*.csv
+
+# Predicciones por fila de validacion: no necesarias para la demo
+/reports/clasificacion_matematica/predicciones_validacion.csv
+
+# Copias comprimidas y temporales
+*.zip
+~$*
+.DS_Store
+Thumbs.db
+# Experimento anterior descartado
+/experimentogpa/
+
+# Predicciones de la seleccion anterior
+/reports/clasificacion_matematica/predicciones_nuevas.csv
